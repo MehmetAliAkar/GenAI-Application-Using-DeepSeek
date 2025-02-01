@@ -1,0 +1,68 @@
+# 🐍 Python cache ve derlenmiş dosyalar
+__pycache__/
+*.py[cod]
+*.so
+*.pyo
+*.pyd
+
+# 🚀 Sanal ortamlar (Virtualenv ve Conda)
+venv/
+.env/
+*.venv
+*.env
+env/
+.venv/
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# 🗄️ Bağımlılıklar ve kütüphane dosyaları
+*.egg-info/
+*.egg
+*.whl
+dist/
+build/
+
+# 🛠️ IDE ve editör dosyaları
+.vscode/
+.idea/
+*.iml
+
+# 📦 Paketleme ve dağıtım dosyaları
+*.tar.gz
+*.zip
+
+# 🔐 API Anahtarları ve Hassas Dosyalar
+.env
+config.json
+credentials.json
+
+# 🏛️ ChromaDB, SQLite ve diğer veri dosyaları
+chroma_db/
+*.sqlite3
+*.db
+
+# 📊 Log dosyaları ve geçici dosyalar
+logs/
+*.log
+*.out
+*.err
+debug.log
+
+# 📜 Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# 🔍 Test ve CI/CD dosyaları
+coverage/
+.coverage
+nosetests.xml
+pytest_cache/
+tox/
+htmlcov/
+
+# 🏗️ Docker dosyaları (Eğer kullanıyorsan)
+docker-compose.override.yml
+*.dockerfile
+
+# 🌍 Streamlit Cache
+.streamlit/
